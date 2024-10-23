@@ -1,0 +1,6 @@
+type DataStoredEvent @entity {
+  id: ID!
+  data: Int!
+  blockNumber: Int!
+  transactionHash: String!
+}
